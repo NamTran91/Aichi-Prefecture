@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Noto+Serif+JP:wght@200..900&family=Protest+Revolution&family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Noto+Serif+JP:wght@200..900&family=Protest+Revolution&family=Stick&family=Zen+Kaku+Gothic+New&display=swap');
+
+body {
+    display: flex;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    flex-direction: column;
+    font-size: 150%;
+    gap: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 10px;
+    background-color: #b16c7c;
+}
+
+.button {
+    background-color: #a63c48;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #f9f0f1;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.content {display: flex; flex-direction: column; gap:20px; justify-items:center; color:}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+h1 {font-family: "Stick", sans-serif; margin: 0px;}
+p {margin: 0px;}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 500px;
+    margin: 0px;
+}
+
+.main {
+    display: flex; flex-direction: column; align-items: center;
+}
+
+.card-container {display: flex; gap: 20px;}
+
+.card {width: 300px; }
+.cardbox {width: 300px; height:300px; border: #a63c48 5px solid; margin: 0px; padding: 0px;}
+
+.information {display: flex; flex-direction:column; justify-content: center; align-items: center; background-color: #dd9cac; color: #f9f0f1; padding: 10px;}
+
+.maintext {width: 800px;}
+
+.subtext {width: 800px;text-align: right; font-weight: bold;}
