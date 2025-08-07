@@ -1,30 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Noto+Serif+JP:wght@200..900&family=Protest+Revolution&family=Stick&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Noto+Serif+JP:wght@200..900&family=Protest+Revolution&family=Stick&family=Zen+Kaku+Gothic+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick&family=Zen+Kaku+Gothic+New&display=swap');
 
 body {
     display: flex;
     font-family: "Zen Kaku Gothic New", sans-serif;
     flex-direction: column;
     font-size: 150%;
+    margin: 0px;
     gap: 5px;
 }
+
+.top {display: flex; flex-direction: column; background-color: #b16c7c;align-items: center;justify-content: flex-start;padding: 10px 0px 20px 0px;}
 
 .header {
     display: flex;
     justify-content: space-between;
-    justify-items: center;
-    padding: 10px;
+    align-items: flex-start;
     background-color: #b16c7c;
+    width: 1200px;
 }
 
 .button {
     background-color: #a63c48;
-    padding: 10px;
+    padding: 10px 20px;
     margin: 10px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-grow: 0;
+}
+
+.button.b2 {
+border: #f9f0f1 solid 2.5px;
 }
 
 a {
@@ -36,18 +43,25 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 15px;
+    margin: 0px;
+    padding: 0px;
 }
 
-.content {display: flex; flex-direction: column; gap:20px; justify-items:center; color:}
+.content {display: flex; flex-direction: column; gap:20px; justify-items:center;}
 
 .introduction {
     display: flex;
     justify-content: center;
     align-items: center;
     gap:20px;
+    background-color: #b16c7c;
+    color: #f9f0f1;
 }
 
 h1 {font-family: "Stick", sans-serif; margin: 0px;}
+
+h2 {margin: 0px;}
+
 p {margin: 0px;}
 
 .intro-text {
@@ -55,21 +69,28 @@ p {margin: 0px;}
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 500px;
+    width: 600px;
     margin: 0px;
 }
 
 .main {
-    display: flex; flex-direction: column; align-items: center;
+    display: flex; flex-direction: column; align-items: center; gap: 10px;
 }
 
-.card-container {display: flex; gap: 20px;}
+.card-container {display: flex; gap: 30px;}
 
 .card {width: 300px; }
-.cardbox {width: 300px; height:300px; border: #a63c48 5px solid; margin: 0px; padding: 0px;}
 
-.information {display: flex; flex-direction:column; justify-content: center; align-items: center; background-color: #dd9cac; color: #f9f0f1; padding: 10px;}
+.cardbox {width: 300px; height:300px; border: #a63c48 5px solid; margin: 0px; padding: 0px; border-radius: 10px;}
+
+.information {display: flex; flex-direction:column; justify-content: center; align-items: center; background-color: #edd7d9; padding: 20px 0px;}
 
 .maintext {width: 800px;}
 
 .subtext {width: 800px;text-align: right; font-weight: bold;}
+
+.external { padding: 30px; display: flex; justify-content: center; align-items: center;}
+
+.clickbox {background-color:#c7838a;padding: 30px 20px; display: flex;align-items: center; justify-content:space-around;border-radius: 10px; width: 1200px;color: #f9f0f1;}
+
+.footer {background-color: #b16c7c; display: flex; justify-content: center; align-items: center; padding: 30px 0px;}
